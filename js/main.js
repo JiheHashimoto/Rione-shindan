@@ -1,7 +1,7 @@
 (function() {
-    'use strict'; //ここまで定石
+    'use strict';
 
-    var btn = document.getElementById('btn'); //要素の取得
+    var btn = document.getElementById('btn'); 
 
     var y_question = ['頼れる先輩が欲しい。',
                 'プログラミングで世界中の人々の命を救いたい。',
@@ -132,7 +132,6 @@
         this.className = '';
     })
 
-    //var question = document.getElementById('question'); //要素の取得
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 reset.addEventListener('click', function() {      // クリックした時の処理は次のようにしてください
